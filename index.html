@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #0a0e1a;
+      --bg-soft: #12192b;
+      --ink-main: #f2f5ff;
+      --ink-muted: #b5bfd9;
+      --line-soft: #2a3554;
+      --accent: #4f8cff;
+      --accent-warm: #f4b065;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      box-sizing: border-box;
+      color: var(--ink-main);
+      font-family: Inter, sans-serif;
+      text-align: center;
+      background:
+        radial-gradient(1120px 560px at 10% -5%, rgba(79, 140, 255, 0.22), rgba(0, 0, 0, 0) 65%),
+        radial-gradient(880px 400px at 92% 6%, rgba(244, 176, 101, 0.16), rgba(0, 0, 0, 0) 65%),
+        linear-gradient(160deg, var(--bg-main), var(--bg-soft));
+      background-attachment: fixed;
+    }
+    .card {
+      max-width: 560px;
+      padding: 48px 40px;
+      border: 1px solid var(--line-soft);
+      border-radius: 16px;
+      background: rgba(18, 25, 43, 0.6);
+    }
+    .bar {
+      width: 56px;
+      height: 4px;
+      margin: 0 auto 28px;
+      border-radius: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-family: Manrope, sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    p {
+      margin: 0;
+      color: var(--ink-muted);
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="bar"></div>
+    <h1>Under Construction</h1>
+    <p>Something new is on the way. Please check back soon.</p>
+  </main>
+</body>
+</html>
